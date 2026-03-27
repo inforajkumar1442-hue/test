@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ table {
+    width: 59%;
+    text-align: center;
+    margin: 45px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid;
+    padding: 12px 0;
+}
+td#yellow {
+    background-color: lightyellow;
+}
+td#blue {
+    background-color: lightblue;
+}
+td#green {
+    background-color: lightgreen;
+}
+table tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+.boxx p:nth-child(4){
+    color: red;
+    font-size: 40px;
+}
+.boxx p:nth-child(1) {
+    color: rgb(21, 0, 255);
+    font-size: 40px;
+}
+    </style>
+</head>
+<body>
+    <div class="table">
+        <table>
+        <tr class="bg">
+           
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Raj Kumar</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+            </tr>
+
+            <tr class="bg">
+            <td>2</td>
+            <td>Neha</td>
+            <td>Founder Apple</td>
+            <td>$12000</td>
+            </tr>
+             <tr>
+            <td>3</td>
+            <td>Rahul Yadav</td>
+            <td>Founder Google</td>
+            <td>$ 1100</td>
+            </tr>
+            <tr class="bg">
+            <td>4</td>
+            <td>Rahul Mehta</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+            </tr>
+
+        </table>
+    </div>
+    <!------------------------------------>
+    <div class="Time-table">
+        <table>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" id="yellow">8:00 a.m</td>
+                <td rowspan="2" id="blue">5:00 p.m</td>
+                <td>Introduction to XML</td>
+            </tr>
+                <td>Validity: DTD and Relax NG</td>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td id="yellow">8:00 a.m</td>
+                <td id="yellow">11:00 a.m</td>
+                <td>XPath</td>
+            </tr>
+            <tr>
+                <td id="yellow">11:00 a.m</td>
+                <td id="green">2:00 p.m</td>
+            </tr>
+            <tr>
+                <td id="green">2:00 p.m</td>
+                <td id="blue">5:00 p.m</td>
+                <td>XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td id="yellow">8:00 a.m</td>
+                <td id="green">12:00 p.m</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+    </table>
+    </div>
+    <div class="boxx">
+        <p>testng1</p>
+        <p>testng2</p>
+        <p>testn31</p>
+        <p>testng551</p>
+        <p>testng155</p>
+    </div>
+</body>
+</html>
